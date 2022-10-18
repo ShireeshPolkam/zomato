@@ -1,0 +1,119 @@
+body{
+    margin:auto
+}
+/*Header Css*/
+header{
+    height:60px;
+    /* border:2px  solid red; */
+    background-color:#352929;
+    color:rgb(252, 252, 252)
+    
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color:rgb(223, 142, 19);
+    color:rgb(19, 15, 15);
+    margin-top: 2%;
+}
+
+
+#login{
+    background-color:rgb(187, 137, 0);
+}
+
+#register{
+    background-color:rgb(187, 137, 0);
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%
+}
+#icon > button{
+    margin: 5%
+}
+#social{
+    float:right;
+    margin-top: 12px;
+    margin-right: 3%;
+}
+
+.container{
+    height: 400px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 7%;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+#imgDiv{
+    height: 400px;
+    width: 35%;
+    /*border: 2px solid blue;*/
+    float: left;
+}
+
+#imgDiv img{
+    height: 100%;
+    width: 100%;
+    border: px groove black;
+}
+
+#contentDiv{
+    height: 600px;
+    width: 55%;
+    /*border: 2px solid blue;*/
+    margin-left: 4%;
+    float: left;
+    color:#213b50;
+    margin-top: -1%;
+}
+
+figure{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left:2;
+}
+
+figure img{
+    width: 100%; 
+    height: 80%;    
+}
+
+.starClass{
+    color: green;
+}
+
+/*Footer Css*/
+footer{
+    /*height: 100px;*/
+    /*border: 2px solid red;*/
+    background-color:#352929;  
+    margin-top: 3%;
+    text-align: center;
+    color: azure;
+}
+
+.about{
+    height: 70px;
+    width: 33%;
+    display: inline-block;
+    border-right: 2px solid azure;
+}
+
+.noBorder{
+    border:none;
+}
+
+.socialIcon{
+    height: 50px;
+    width: 50px;
+}
